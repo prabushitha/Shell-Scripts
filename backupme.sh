@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# -ne 2 ]
+if [ $# -ne 2 ] || [ $1 = "-h" ]
 then
     
     echo "backupme is to backup any file or directory easily to a destination.";
